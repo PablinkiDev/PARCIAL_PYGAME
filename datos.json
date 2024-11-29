@@ -1,0 +1,38 @@
+[
+    {
+        "user": "Agustin",
+        "points": 1520,
+        "minutos": 4,
+        "errores": 0
+    },
+    {
+        "user": "Thiago",
+        "points": 1200,
+        "minutos": 2,
+        "errores": 0
+    },
+    {
+        "user": "Facundo",
+        "points": 1900,
+        "minutos": 2,
+        "errores": 0
+    },
+    {
+        "user": "Lionel",
+        "points": 1300,
+        "minutos": 2,
+        "errores": 0
+    },
+    {
+        "user": "Player",
+        "points": 587,
+        "minutos": 1,
+        "errores": 69
+    },
+    {
+        "user": "Agus",
+        "points": 639,
+        "minutos": 0,
+        "errores": 63
+    }
+]

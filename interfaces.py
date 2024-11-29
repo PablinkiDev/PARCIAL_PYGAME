@@ -247,6 +247,7 @@ def dibujar_tablero(estado_juego:dict)->None:
             # Obtener el valor de la celda actual
             value = estado_juego['sudoku'][i][j]
             
+            # Colores de Texto
             # Determinar el color del texto según el estado de la celda
             if (i, j) in estado_juego['celdas_errores']:
                 color_texto = CELDA_ERROR  # Color para errores
@@ -257,6 +258,7 @@ def dibujar_tablero(estado_juego:dict)->None:
             
             numero = SYSFONT_MEDIUM.render(str(estado_juego['sudoku'][i][j]), True, color_texto)
             
+            # Colores de Celda
             if estado_juego['celda_seleccionada'] == (i, j):
                 color = CELDA_SELECCIONADA
             elif (i, j) in estado_juego['colores_celdas']:
